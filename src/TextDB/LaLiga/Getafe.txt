@@ -1,0 +1,12 @@
+Player_getafe_1
+Player_getafe_2
+Player_getafe_3
+Player_getafe_4
+Player_getafe_5
+Player_getafe_6
+Player_getafe_7
+Player_getafe_8
+Player_getafe_9
+Player_getafe_10
+Player_getafe_11
+Manager_getafe

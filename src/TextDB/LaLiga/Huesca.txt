@@ -1,0 +1,12 @@
+Player_huesca_1
+Player_huesca_2
+Player_huesca_3
+Player_huesca_4
+Player_huesca_5
+Player_huesca_6
+Player_huesca_7
+Player_huesca_8
+Player_huesca_9
+Player_huesca_10
+Player_huesca_11
+Manager_huesca

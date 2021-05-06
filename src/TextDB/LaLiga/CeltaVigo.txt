@@ -1,0 +1,12 @@
+Player_celta_vigo_1
+Player_celta_vigo_2
+Player_celta_vigo_3
+Player_celta_vigo_4
+Player_celta_vigo_5
+Player_celta_vigo_6
+Player_celta_vigo_7
+Player_celta_vigo_8
+Player_celta_vigo_9
+Player_celta_vigo_10
+Player_celta_vigo_11
+Manager_celta_vigo

@@ -1,0 +1,20 @@
+1,Atlético Madrid,0,0
+2,Real Madrid,0,0
+3,Barcelona,0,0
+4,Sevilla,0,0
+5,Real Sociedad,0,0
+6,Villarreal,0,0
+7,Real Betis,0,0
+8,Granada,0,0
+9,Celta Vigo,0,0
+10,Athletic Bilbao,0,0
+11,Osasuna,0,0
+12,Levante,0,0
+13,Cádiz,0,0
+14,Valencia,0,0
+15,Getafe,0,0
+16,Alavés,0,0
+17,Valladolid,0,0
+18,Huesca,0,0
+19,Elche,0,0
+20,Eibar,0,0

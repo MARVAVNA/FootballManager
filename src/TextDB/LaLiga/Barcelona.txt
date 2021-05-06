@@ -1,0 +1,12 @@
+Player_barcelona_1
+Player_barcelona_2
+Player_barcelona_3
+Player_barcelona_4
+Player_barcelona_5
+Player_barcelona_6
+Player_barcelona_7
+Player_barcelona_8
+Player_barcelona_9
+Player_barcelona_10
+Player_barcelona_11
+Manager_barcelona

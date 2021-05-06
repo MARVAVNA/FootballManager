@@ -1,0 +1,12 @@
+Player_osasuna_1
+Player_osasuna_2
+Player_osasuna_3
+Player_osasuna_4
+Player_osasuna_5
+Player_osasuna_6
+Player_osasuna_7
+Player_osasuna_8
+Player_osasuna_9
+Player_osasuna_10
+Player_osasuna_11
+Manager_osasuna

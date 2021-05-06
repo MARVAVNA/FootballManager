@@ -1,0 +1,12 @@
+Player_eibar_1
+Player_eibar_2
+Player_eibar_3
+Player_eibar_4
+Player_eibar_5
+Player_eibar_6
+Player_eibar_7
+Player_eibar_8
+Player_eibar_9
+Player_eibar_10
+Player_eibar_11
+Manager_eibar
