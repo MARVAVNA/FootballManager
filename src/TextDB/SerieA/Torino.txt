@@ -1,0 +1,12 @@
+Player_torino_1
+Player_torino_2
+Player_torino_3
+Player_torino_4
+Player_torino_5
+Player_torino_6
+Player_torino_7
+Player_torino_8
+Player_torino_9
+Player_torino_10
+Player_torino_11
+Manager_torino

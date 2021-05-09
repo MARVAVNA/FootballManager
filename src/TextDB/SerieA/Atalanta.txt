@@ -1,0 +1,12 @@
+Player_atalanta_1
+Player_atalanta_2
+Player_atalanta_3
+Player_atalanta_4
+Player_atalanta_5
+Player_atalanta_6
+Player_atalanta_7
+Player_atalanta_8
+Player_atalanta_9
+Player_atalanta_10
+Player_atalanta_11
+Manager_atalanta

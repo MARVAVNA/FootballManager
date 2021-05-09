@@ -1,0 +1,12 @@
+Player_juventus_1
+Player_juventus_2
+Player_juventus_3
+Player_juventus_4
+Player_juventus_5
+Player_juventus_6
+Player_juventus_7
+Player_juventus_8
+Player_juventus_9
+Player_juventus_10
+Player_juventus_11
+Manager_juventus

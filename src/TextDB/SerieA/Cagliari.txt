@@ -1,0 +1,12 @@
+Player_cagliari_1
+Player_cagliari_2
+Player_cagliari_3
+Player_cagliari_4
+Player_cagliari_5
+Player_cagliari_6
+Player_cagliari_7
+Player_cagliari_8
+Player_cagliari_9
+Player_cagliari_10
+Player_cagliari_11
+Manager_cagliari

@@ -1,10 +1,9 @@
 package model;
 
-import java.util.Arrays;
-
-public class League extends Football {
+public class League {
     private Team[] teams;
     private String name;
+    private static boolean nullify;
 
     public League(Team[] teams, String name) {
         this.teams = teams;
@@ -27,16 +26,12 @@ public class League extends Football {
         this.name = name;
     }
 
-    @Override
-    protected void play() {
-        System.out.println("play");
+    public static boolean isNullify() {
+        return nullify;
     }
 
-    @Override
-    public String toString() {
-        return "League{" +
-                "teams=" + Arrays.toString(teams) +
-                ", name='" + name + '\'' +
-                '}';
+    public static void setNullify(boolean nullify) {
+        League.nullify = nullify;
     }
+
 }

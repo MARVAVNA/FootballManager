@@ -64,8 +64,13 @@ public class LeagueService {
         return teams;
     }
 
-    public void select() {
-        String fileURI = String.format("%s%s%s%s%s", "src", File.separator, "TextDB", File.separator, "league.txt");
+    private void select() {
+        String fileURI = new StringBuilder("src")
+                .append(File.separator)
+                .append("TextDB")
+                .append(File.separator)
+                .append("league.txt")
+                .toString();
         File file = new File(fileURI);
         try {
             String fileContent = Files.readString(Paths.get(file.getPath()));
@@ -75,7 +80,7 @@ public class LeagueService {
             Scanner scanner = new Scanner(System.in);
 
             while (league == null) {
-                printLeagueList(leagues);
+                instance.printLeagueList(leagues);
                 System.out.print("Select league: ");
                 String select = scanner.next();
                 if (CustomNumber.isInteger(select)) {
@@ -96,17 +101,23 @@ public class LeagueService {
         return leagueName;
     }
 
-    public static void create() throws IOException {
+    private void create() throws IOException {
         String leagueName = CustomString.replaceAllLineBreaksByEmpty(CustomString.replaceAllSpacesByEmpty(getName()));
-        String directoryURI = String.format("%s%s%s%s%s%s", "src", File.separator, "TextDB", File.separator, leagueName, File.separator);
-        String fileURI = String.format("%s%s", directoryURI, "2020-2021.txt");
+        String directoryURI = new StringBuilder("src")
+                .append(File.separator)
+                .append("TextDB")
+                .append(File.separator)
+                .append(leagueName)
+                .append(File.separator)
+                .toString();
+        String fileURI = directoryURI + "2020-2021.txt";
         Object[] teamLines = CustomFiles.read(fileURI);
 
         Team[] teams = new Team[20];
         byte count = 0;
         for (Object team : teamLines) {
             String[] teamInfo = ((String) team).split(",");
-            Object[] playerLines = CustomFiles.read(String.format("%s%s", directoryURI, CustomString.replaceAllSpacesByEmpty(teamInfo[1]) + ".txt"));
+            Object[] playerLines = CustomFiles.read(directoryURI + CustomString.replaceAllSpacesByEmpty(teamInfo[1]) + ".txt");
             Player[] players = new Player[11];
             for (int i = 0;  i < 11; i++) {
                 players[i] = new Player(CustomString.replaceAllLineBreaksByEmpty((String) playerLines[i]));
@@ -131,4 +142,33 @@ public class LeagueService {
         }
         System.out.println("----------------------------");
     }
+
+    public static void play() {
+        League.setNullify(false);
+        GameService.setTourCount((byte) 0);
+        instance = null;
+
+        getInstance();
+
+        instance.select();
+
+        TeamService teamService = TeamService.getInstance(leagueName);
+        teamService.select();
+
+
+        try {
+            teamService.create();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            instance.create();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        MenuService.createMenu();
+    }
+
 }

@@ -1,0 +1,12 @@
+Player_bologna_1
+Player_bologna_2
+Player_bologna_3
+Player_bologna_4
+Player_bologna_5
+Player_bologna_6
+Player_bologna_7
+Player_bologna_8
+Player_bologna_9
+Player_bologna_10
+Player_bologna_11
+Manager_bologna

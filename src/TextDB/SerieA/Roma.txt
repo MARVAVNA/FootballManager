@@ -1,0 +1,12 @@
+Player_roma_1
+Player_roma_2
+Player_roma_3
+Player_roma_4
+Player_roma_5
+Player_roma_6
+Player_roma_7
+Player_roma_8
+Player_roma_9
+Player_roma_10
+Player_roma_11
+Manager_roma

@@ -1,5 +1,6 @@
 package services;
 
+import model.League;
 import model.Team;
 
 public class GameService {
@@ -76,16 +77,23 @@ public class GameService {
                 otherGames();
             }
 
+/*
             if (tourCount == 38) {
                 LeagueService.sortStandings();
                 results(LeagueService.getMyLeague().getTeams());
             }
+*/
         } else {
             results(LeagueService.getMyLeague().getTeams());
         }
     }
 
+    public static void setTourCount(byte tourCount) {
+        GameService.tourCount = tourCount;
+    }
+
     private static void results(Team[] teams) {
+        League.setNullify(true);
         if (teams[0].getName().equals(TeamService.getMyTeam().getName())) {
             System.out.println("Congratulations, you won the championship!");
         } else {

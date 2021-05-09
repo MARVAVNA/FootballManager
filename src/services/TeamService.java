@@ -21,13 +21,17 @@ public class TeamService {
         TeamService.leagueName = leagueName;
     }
 
-    public static void create() throws IOException {
+    public void create() throws IOException {
         String leagueName = CustomString.replaceAllLineBreaksByEmpty(CustomString.replaceAllSpacesByEmpty(TeamService.getLeagueName()));
         String[] teamInfo = team.split(",");
         String teamName = teamInfo[1];
-//        String teamName = CustomString.replaceAllSpacesByEmpty(teamInfo[1]);
-        String fileURI = "src\\TextDB\\" + leagueName + "\\" + CustomString.replaceAllLineBreaksByEmpty(CustomString.replaceAllSpacesByEmpty(teamName)) + ".txt";
-        File file = new File(fileURI);
+        String fileURI = new StringBuilder("src")
+                .append("\\TextDB\\")
+                .append(leagueName)
+                .append("\\")
+                .append(CustomString.replaceAllLineBreaksByEmpty(CustomString.replaceAllSpacesByEmpty(teamName)))
+                .append(".txt")
+                .toString();
         Object[] lines = Files.readAllLines(Paths.get(fileURI)).toArray();
         Player[] players = new Player[11];
         for (int i = 0; i < 11; i++) {
@@ -50,7 +54,14 @@ public class TeamService {
     public void select() {
         String leagueFDirectoryName = CustomString.replaceAllSpacesByEmpty(leagueName);
         leagueFDirectoryName = CustomString.replaceAllLineBreaksByEmpty(leagueFDirectoryName);
-        String fileURI = String.format("src%sTextDB%s%s%s%s", File.separator, File.separator, leagueFDirectoryName, File.separator, "2020-2021.txt");
+        String fileURI = new StringBuilder("src")
+                .append(File.separator)
+                .append("TextDB")
+                .append(File.separator)
+                .append(leagueFDirectoryName)
+                .append(File.separator)
+                .append("2020-2021.txt")
+                .toString();
         File file = new File(fileURI);
         try {
             String fileContent = Files.readString(Paths.get(file.getPath()));

@@ -1,0 +1,12 @@
+Player_crotone_1
+Player_crotone_2
+Player_crotone_3
+Player_crotone_4
+Player_crotone_5
+Player_crotone_6
+Player_crotone_7
+Player_crotone_8
+Player_crotone_9
+Player_crotone_10
+Player_crotone_11
+Manager_crotone

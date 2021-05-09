@@ -1,0 +1,12 @@
+Player_sampdoria_1
+Player_sampdoria_2
+Player_sampdoria_3
+Player_sampdoria_4
+Player_sampdoria_5
+Player_sampdoria_6
+Player_sampdoria_7
+Player_sampdoria_8
+Player_sampdoria_9
+Player_sampdoria_10
+Player_sampdoria_11
+Manager_sampdoria

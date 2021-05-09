@@ -1,0 +1,20 @@
+1,Inter,0,0
+2,Atalanta,0,0
+3,Milan,0,0
+4,Napoli,0,0
+5,Juventus,0,0
+6,Lazio,0,0
+7,Roma,0,0
+8,Sassuolo,0,0
+9,Sampdoria,0,0
+10,Hellas Verona,0,0
+11,Udinese,0,0
+12,Bologna,0,0
+13,Fiorentina,0,0
+14,Genoa,0,0
+15,Torino,0,0
+16,Cagliari,0,0
+17,Spezia,0,0
+18,Benevento,0,0
+19,Parma,0,0
+20,Crotone,0,0

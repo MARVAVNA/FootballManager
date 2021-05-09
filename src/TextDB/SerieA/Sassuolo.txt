@@ -1,0 +1,12 @@
+Player_sassuolo_1
+Player_sassuolo_2
+Player_sassuolo_3
+Player_sassuolo_4
+Player_sassuolo_5
+Player_sassuolo_6
+Player_sassuolo_7
+Player_sassuolo_8
+Player_sassuolo_9
+Player_sassuolo_10
+Player_sassuolo_11
+Manager_sassuolo

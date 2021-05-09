@@ -1,0 +1,12 @@
+Player_genoa_1
+Player_genoa_2
+Player_genoa_3
+Player_genoa_4
+Player_genoa_5
+Player_genoa_6
+Player_genoa_7
+Player_genoa_8
+Player_genoa_9
+Player_genoa_10
+Player_genoa_11
+Manager_genoa

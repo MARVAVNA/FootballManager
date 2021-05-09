@@ -1,0 +1,12 @@
+Player_fiorentina_1
+Player_fiorentina_2
+Player_fiorentina_3
+Player_fiorentina_4
+Player_fiorentina_5
+Player_fiorentina_6
+Player_fiorentina_7
+Player_fiorentina_8
+Player_fiorentina_9
+Player_fiorentina_10
+Player_fiorentina_11
+Manager_fiorentina

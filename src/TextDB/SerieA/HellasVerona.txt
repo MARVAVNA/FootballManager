@@ -1,0 +1,12 @@
+Player_hellas_verona_1
+Player_hellas_verona_2
+Player_hellas_verona_3
+Player_hellas_verona_4
+Player_hellas_verona_5
+Player_hellas_verona_6
+Player_hellas_verona_7
+Player_hellas_verona_8
+Player_hellas_verona_9
+Player_hellas_verona_10
+Player_hellas_verona_11
+Manager_hellas_verona

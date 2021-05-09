@@ -1,0 +1,12 @@
+Player_spezia_1
+Player_spezia_2
+Player_spezia_3
+Player_spezia_4
+Player_spezia_5
+Player_spezia_6
+Player_spezia_7
+Player_spezia_8
+Player_spezia_9
+Player_spezia_10
+Player_spezia_11
+Manager_spezia

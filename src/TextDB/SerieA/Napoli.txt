@@ -1,0 +1,12 @@
+Player_napoli_1
+Player_napoli_2
+Player_napoli_3
+Player_napoli_4
+Player_napoli_5
+Player_napoli_6
+Player_napoli_7
+Player_napoli_8
+Player_napoli_9
+Player_napoli_10
+Player_napoli_11
+Manager_napoli

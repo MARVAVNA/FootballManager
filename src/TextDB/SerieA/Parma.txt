@@ -1,0 +1,12 @@
+Player_parma_1
+Player_parma_2
+Player_parma_3
+Player_parma_4
+Player_parma_5
+Player_parma_6
+Player_parma_7
+Player_parma_8
+Player_parma_9
+Player_parma_10
+Player_parma_11
+Manager_parma
